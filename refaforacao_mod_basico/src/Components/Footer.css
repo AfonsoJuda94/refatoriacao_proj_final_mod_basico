@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    align-self: flex-end;
+    background-color:darkslategrey;  
+    justify-content: center;
+    width: 125%;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+
+}
+footer li{
+    margin-left: 10px;
+    display: flex;
+
+}
+footer a{
+    color: white;
+    
+}

@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #f3edede8;
+    width: 125%;
+}
+nav ul{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav li{
+    margin-left: 10%;
+}
+nav a{
+   text-decoration: none;
+   color: darkslategrey;
+   font-weight: bold;
+   padding: 10%;
+   
+}
+nav a:hover{
+    background-color: rgba(231, 231, 222, 0.411);
+    color: rgb(12, 202, 113);
+}
+#pesquisa{
+    display: flex;
+    border: none;
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+}
+#pesquisa > input{ /*Barra de pesquisa*/
+    border-radius: 10px;
+    border: none;
+}
+#pesquisa > button{ /*Botão de pesquisa*/
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+img{
+    height: 100%;
+}
