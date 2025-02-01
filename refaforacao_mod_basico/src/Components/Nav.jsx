@@ -6,14 +6,14 @@ export default function Nav(){
         <nav id="nav">
             <img src = {img} width={100} alt=""/>
             <ul>
-                <li><a class="link_nav" href="#inicio">inicio</a></li>
-                <li><a href="#livros">livros</a></li>
-                <li><a href="#audio">audio livros</a></li>
-                <li><a href="#foruns">fóruns</a></li>
+                <li><a className="link_nav" href="inicio">inicio</a></li>
+                <li><a href="livros">livros</a></li>
+                <li><a href="audio">audio livros</a></li>
+                <li><a href="forum">fóruns</a></li>
             </ul>
             <form  id="pesquisa" action=".action">
-                <input id="pesquisa" type="search" name="pesquisa" />
-                <label for="pesquisa"></label>
+                <input id="input" type="search" name="pesquisa" />
+                <label htmlFor="input"></label>
                 <button><img src={lupa} alt=""/></button>
             </form>
         </nav>

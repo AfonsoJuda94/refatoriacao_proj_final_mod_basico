@@ -1,9 +1,9 @@
 footer{
     display: flex;
     align-self: flex-end;
-    background-color:darkslategrey;  
+    background-color:#2f4f4f;  
     justify-content: center;
-    width: 125%;
+    
 }
 footer ul{
     list-style: none;

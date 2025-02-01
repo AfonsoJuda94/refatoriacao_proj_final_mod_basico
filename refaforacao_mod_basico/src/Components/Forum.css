@@ -1,0 +1,24 @@
+#div_forum{
+    color:darkslategrey;
+    min-height: 30cqmax;
+}
+#div_forum input{
+    padding: 10px;
+    margin-right: 5px;
+}
+#div_forum img{
+    width: 15px
+}
+#div_forum button{
+    
+}
+#conversa{
+    border: 5px solid darkslategrey;
+    background-color:lightgray;
+}
+#fulano{
+    color: deeppink;
+}
+#sicrano{
+    color:blue;
+}
