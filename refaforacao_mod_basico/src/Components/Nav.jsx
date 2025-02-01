@@ -10,6 +10,7 @@ export default function Nav(){
                 <li><a href="livros">livros</a></li>
                 <li><a href="audio">audio livros</a></li>
                 <li><a href="forum">fóruns</a></li>
+                <li><a href="contato">Contato</a></li>
             </ul>
             <form  id="pesquisa" action=".action">
                 <input id="input" type="search" name="pesquisa" />

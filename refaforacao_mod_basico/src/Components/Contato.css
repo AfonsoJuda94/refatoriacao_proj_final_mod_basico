@@ -1,0 +1,18 @@
+#div_contato{
+    background-color: white;
+    color:darkslategrey;
+    min-height: 30cqmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center; 
+}
+#div_contato img{
+    width: 25px;
+}
+#div_contato form{
+    border: 1px solid darkslategray;
+    width: 50%;
+    padding: 5px;
+}

@@ -10,6 +10,7 @@ import NotFound from './Components/NotFound'
 import Livros from './Components/Livros'
 import AudioLivros from './Components/AudioLivros'
 import Forum from './Components/Forum'
+import Contato from './Components/Contato'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,6 +23,7 @@ function App() {
           <Route path='/livros' element ={<Livros/>}/>
           <Route path='audio' element ={<AudioLivros/>}/>
           <Route path='/forum' element = {<Forum/>} />
+          <Route path='/contato' element = {<Contato/>} />
           <Route path='*' element = {<NotFound/>}/>
         </Routes>
       </BrowserRouter>
